@@ -6,5 +6,5 @@ import retrofit2.http.GET
 
 interface PlaceHolderApi {
     @GET("users")
-    suspend fun getUsers(): Call<List<User>>
+    suspend fun getUsers(): List<User>
 }
